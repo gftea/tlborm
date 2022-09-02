@@ -90,7 +90,7 @@ f! { fn f_u32(x: u32) -> u32; }
 f! { fn f_u64(x: u64) -> u64; }
 f! { fn f_u128(x: u128) -> u128; }
 ```
-The longer the input, the more likely this will improve compile times.
+The shorter the input, the more likely this will improve compile times.
 
 Also, if a TT muncher macro has many rules, put the most frequently matched
 rules as early as possible.
